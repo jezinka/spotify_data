@@ -14,7 +14,7 @@ def pretty_print(tracks):
 
 
 def keep(track):
-    return track["msPlayed"] > 5000 and track["endTime"].startswith('2021')
+    return track["msPlayed"] > 30000 and track["endTime"].startswith('2021') and track["artistName"] != 'Super Simple Songs'
 
 
 def prepare_2021_data():
